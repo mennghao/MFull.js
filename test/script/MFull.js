@@ -65,7 +65,7 @@
 					_type,
 					_distance = 100; //划过距离
 
-				opts.type === "v" ? _type = this.config.zz.y : _type = this.config.xy.x;
+				opts.type === "v" ? _type = this.config.zz.y : _type = this.config.zz.x;
 
 				(_type < -_distance && this.handle(_index, "up")) || (_type > _distance && this.handle(_index, "down"));
 			},
