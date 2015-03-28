@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+</head>
+<body>
+<div id="activity" class="show-0" data-id="0">
+	<div class="page page-a">
+		<h1>Page 1</h1>
+	</div>
+	<div class="page page-b">
+		<h1>Page 2</h1>
+	</div>
+	<div class="page page-c">
+		<h1>Page 3</h1>
+	</div>
+	<div class="page page-d">
+		<h1>Page 4</h1>
+	</div>
+	<div class="page page-e">
+		<h1>Page 5</h1>
+	</div>
+</div>
+<script type="text/javascript" src="./script/MFull.js"></script>
+<script type="text/javascript">
+(function(){
+	MFull.init({
+		box : "activity",
+		len : 5,
+		type : "c"
+	});
+}())
+</script>
+</body>
+</html>
